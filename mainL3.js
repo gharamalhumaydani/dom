@@ -1,27 +1,8 @@
-text.innerText = "Rose is a term of ornamental plants ";
-function myFunction() {
-    let element = document.body;
-    element.classList.toggle("myfun");
-  }
 
-  function myFun1() {
-    let element = document.body;
-    element.style.backgroundColor = "white";
-    let text = document.getElementById("parg1");
-    text.innerText = " good smell";
-    text.style.color = "Aquamarine"
+function text(){
+  document.getElementById("parg");
+}
 
-  }
-
-
-  function myFun2() {
-    let element = document.body;
-    element.style.backgroundColor = "Aquamarine";
-    let text = document.getElementById("parg1");
-    text.innerText = " good smell";
-    text.style.color = "white"
-
-  }
   function ChangeText(){
     let text = document.getElementById("parg1");
     text.innerText = "with beautiful flowers and good smell";
