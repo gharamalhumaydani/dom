@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+   .myfun {
+    background-color:black;
+    color: white;
+    font-size: 25px;
+  }
+
+  .item{
+    height: 80vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 100%;    
+  }
+  .item2{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center ;
+  }
+
+  .mydiv{
+    display: flex;
+    height: 80vh;
+    width: 100%;
+  }
+
+  .fontSize{
+    font-size: 30px;
+  }
+
+  .img2{
+    background-image: url("./img/f2.jpg");
+  }
+    </style>
+</head>
+
+<body>
+
+    <P id="parg"><P>
+    <button onclick="text()">Show text</button>
+    <div>
+        <P id="parg1"></P>
+        <button onclick="ChangeText()">Change Text</button>
+        <button onclick="inFontSize()">increase Size</button>
+        <button onclick="deFontSize()">decrease Size</button>
+        <button onclick="changeTColor()">Change Color</button>
+    </div>
+    <div >
+        <img id="img"  src="" onclick="changeImg()">
+        <br>
+        <button onclick="changeImg()">img</button>
+    </div>
+   
+
+
+    <hr>
+
+      
+    <button onclick="Massage()">click</button>
+    <p id="parg3"></p>
+
+
+   
+
+
+
+
+    <script src="./mainL3.js"></script> 
+</body>
+</html>
