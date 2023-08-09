@@ -2,7 +2,6 @@
 function text(){
   document.getElementById("parg");
 }
-
   function ChangeText(){
     let text = document.getElementById("parg1");
     text.innerText = "with beautiful flowers and good smell";
